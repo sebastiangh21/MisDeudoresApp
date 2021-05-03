@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MisDeudoresApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="nombre">Nombre</string>
+    <string name="buscar">Buscar</string>
+    <string name="deuda">Valor deuda</string>
+    <string name="telefono">Teléfono</string>
+    <string name="digite_nombre">Nombre</string>
+    <string name="borrar">Borrar</string>
+    <string name="campo_obligatorio">* Campo obligatorio</string>
+    <string name="guardar">Guardar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="crear">Crear</string>
+    <string name="lista">Lista</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+</resources>
