@@ -1,6 +1,5 @@
-package com.cubidevs.misdeudoresapp
+package com.cubidevs.misdeudoresapp.ui.main
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
@@ -11,6 +10,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.cubidevs.misdeudoresapp.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -27,7 +27,8 @@ class MainActivity : AppCompatActivity() {
             R.id.nav_crear,
             R.id.nav_buscar,
             R.id.nav_actualizar,
-            R.id.nav_borrar))
+            R.id.nav_borrar
+        ))
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }
